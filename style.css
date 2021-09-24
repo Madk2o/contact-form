@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*linear-gradient(rgba(47, 47, 245, 0.5), rgba(250, 248, 248, 0.5)),*/
+body{
+    text-align: center;
+    background: url(/219269.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.contact-form{
+    color: #fff;
+}
+.contact-title{
+    margin-top: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.contact-title h1{
+    font-size: 2rem;
+    line-height: 0.2rem;
+}
+
+.contact-title h2{
+    font-size: 1rem;
+    line-height: 0.5rem;
+    margin-top: 2rem;
+}
+
+form{
+    margin-top: 2rem;
+    
+}
+
+.form-control{
+    width: 50rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 0.1rem solid rgb(241, 241, 241);
+    color: rgb(236, 235, 235);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+input{
+    height: 2.5rem;
+}
+
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    margin-top: 1.3rem;
+}
+
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
